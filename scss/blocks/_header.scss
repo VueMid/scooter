@@ -182,12 +182,51 @@
       background: none;
     }
     &__open-burger-icon {
-      width: 20px;
+      width: 17px;
       height: 16px;
       vertical-align: middle;
     }
     &__close-burger-icon {
       display: none;
+    }
+    &__nav-mb {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      position: fixed;
+      padding: 64px 24px 94px 24px;
+      z-index: 2;
+      top: 72px;
+      left: 0;
+      width: 85%;
+      height: 100vh;
+      transform: translateX(-100%);
+      transition: all 500ms ease;
+      background-color: #333a44;
+    }
+    &__nav-mb.active {
+      transition: all 500ms ease;
+      transform: translateX(0);
+    }
+    &__list-mb {
+      @include df-column-center-start;
+      gap: 24px;
+    }
+    &__lists-mb {
+    }
+    &__links-mb {
+    }
+    &__links-texts-mb {
+      font-weight: bold;
+      font-family: "Space Mono";
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: #e5ecf4;
+    }
+    &__button-mb {
+      @include template-button;
     }
   }
 }
