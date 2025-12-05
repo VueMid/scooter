@@ -69,7 +69,7 @@
     display: none;
   }
   &__nav-mb {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
@@ -181,14 +181,14 @@
       display: none;
     }
     &__nav-mb {
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
       position: fixed;
       padding: 64px 24px 94px 24px;
       z-index: 2;
-      top: 72px;
+      top: 62px;
       left: 0;
       width: 85%;
       height: 100vh;
