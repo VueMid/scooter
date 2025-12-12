@@ -1,0 +1,261 @@
+.easy {
+  margin-top: 200px;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 635px;
+    height: 151px;
+    top: 67%;
+    right: 0;
+    background-image: url("../../icons/easy__vector-tb.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &::before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 95px;
+    height: 445px;
+    top: 0%;
+    right: 0;
+    background-image: url("../../icons/easy__mask-tb.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.easy__container {
+  @include df-row-between-center;
+}
+.easy__left-box {
+  @include df-column-center-start;
+}
+.easy__title {
+  width: 457px;
+  text-align: start;
+  font-family: "Space Mono";
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+  color: $dark__navy;
+  margin-bottom: 40px;
+}
+.easy__text {
+  width: 573px;
+  text-align: start;
+  font-family: "Space Mono";
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: $dim__grey;
+  margin-bottom: 40px;
+}
+.easy__button {
+  @include template-button;
+}
+.easy__image {
+  border-radius: 50%;
+  width: 445px;
+  height: 445px;
+}
+@media (max-width: 1150px) {
+  .easy {
+    margin-top: 145px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 735px;
+      height: 151px;
+      top: 35%;
+      right: 0;
+      background-image: url("../../icons/easy__vector-tb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 95px;
+      height: 445px;
+      top: 0%;
+      right: 0;
+      background-image: url("../../icons/easy__mask-tb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .easy__container {
+    padding: 0 40px;
+    @include df-column-reverse-center-center;
+    gap: 56px;
+  }
+  .easy__left-box {
+    @include df-column-center-center;
+  }
+  .easy__title {
+    width: 457px;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: $dark__navy;
+    margin-bottom: 40px;
+  }
+  .easy__text {
+    width: 573px;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+    margin-bottom: 40px;
+  }
+  .easy__button {
+    @include template-button;
+  }
+  .easy__image {
+    border-radius: 50%;
+    width: 445px;
+    height: 445px;
+  }
+}
+@media (max-width: 1024px) {
+  .easy {
+    margin-top: 145px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 735px;
+      height: 151px;
+      top: 35%;
+      right: 0;
+      background-image: url("../../icons/easy__vector-tb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 95px;
+      height: 445px;
+      top: 0%;
+      right: 0;
+      background-image: url("../../icons/easy__mask-tb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .easy__container {
+    padding: 0 40px;
+    @include df-column-reverse-center-center;
+    gap: 56px;
+  }
+  .easy__left-box {
+    @include df-column-center-center;
+  }
+  .easy__title {
+    width: 457px;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: $dark__navy;
+    margin-bottom: 40px;
+  }
+  .easy__text {
+    width: 573px;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+    margin-bottom: 40px;
+  }
+  .easy__button {
+    @include template-button;
+  }
+  .easy__image {
+    border-radius: 50%;
+    width: 445px;
+    height: 445px;
+  }
+}
+@media (max-width: 767px) {
+  .easy {
+    margin-top: 120px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 349px;
+      height: 151px;
+      top: 23%;
+      right: 0;
+      background-image: url("../../icons/easy__vector-mb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      display: none;
+      width: 95px;
+      height: 445px;
+      top: 0%;
+      right: 0;
+      background-image: url("../../icons/easy__mask-tb.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .easy__container {
+    padding: 0 24px;
+    @include df-column-reverse-center-center;
+    gap: 56px;
+  }
+  .easy__left-box {
+    @include df-column-center-center;
+  }
+  .easy__title {
+    width: 100%;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.43px;
+    color: $dark__navy;
+    margin-bottom: 32px;
+  }
+  .easy__text {
+    width: 100%;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+    margin-bottom: 32px;
+  }
+  .easy__button {
+    @include template-button;
+  }
+  .easy__image {
+    border-radius: 50%;
+    width: 311px;
+    height: 311px;
+  }
+}
