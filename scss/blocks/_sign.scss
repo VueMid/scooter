@@ -1,0 +1,208 @@
+.sign {
+  margin-top: 200px;
+  position: relative;
+  background-color: $dark__navy;
+  padding: 102px 0;
+  z-index: 2;
+  &::after {
+    z-index: -2;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 998px;
+    height: 158px;
+    background-image: url("../../icons/second__tirple-icons.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &::before {
+    display: none;
+    z-index: -2;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 151px;
+    height: 181px;
+    background-image: url("../../icons/left__circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__container {
+    @include df-row-between-center;
+    gap: 0px;
+  }
+  &__title {
+    width: 415px;
+    text-align: start;
+    color: $white;
+    font-family: "Space Mono";
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    letter-spacing: -2.14px;
+  }
+  &__box {
+    @include df-row-center-center;
+    gap: 18px;
+  }
+  &__link {
+    transition: 100ms ease all;
+    &:active {
+      transition: 100ms ease all;
+      opacity: 0.7;
+    }
+  }
+  &__appstore {
+    vertical-align: middle;
+    width: 159px;
+    height: 56px;
+  }
+  &__googleplay {
+    vertical-align: middle;
+    width: 182px;
+    height: 56px;
+  }
+}
+@media (max-width: 1024px) {
+  .sign {
+    margin-top: 104px;
+    position: relative;
+    background-color: $dark__navy;
+    padding: 62px 0;
+    z-index: 2;
+    &::after {
+      z-index: -2;
+      position: absolute;
+      content: "";
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 158px;
+      background-image: url("../../icons/triple__circle.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &::before {
+      display: none;
+      z-index: -2;
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 151px;
+      height: 181px;
+      background-image: url("../../icons/left__circle.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 40px;
+      padding-right: 40px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__title {
+      width: 457px;
+      text-align: center;
+      color: $white;
+      font-family: "Space Mono";
+      font-size: 48px;
+      line-height: 48px;
+      font-weight: bold;
+    }
+    &__box {
+      @include df-row-center-center;
+      gap: 13px;
+    }
+    &__link {
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        opacity: 0.7;
+      }
+    }
+    &__appstore {
+      vertical-align: middle;
+      width: 113.57px;
+      height: 40px;
+    }
+    &__googleplay {
+      vertical-align: middle;
+      width: 130px;
+      height: 40px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .sign {
+    margin-top: 72px;
+    position: relative;
+    background-color: $dark__navy;
+    padding: 88px 0;
+    z-index: 2;
+    &::after {
+      display: block;
+      z-index: -2;
+      position: absolute;
+      content: "";
+      bottom: 0;
+      right: 0;
+      width: 151px;
+      height: 181px;
+      background-image: url("../../icons/right__circle.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &::before {
+      display: block;
+      z-index: -2;
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 151px;
+      height: 181px;
+      background-image: url("../../icons/left__circle.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__container {
+      padding-left: 24px;
+      padding-right: 24px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__title {
+      width: 100%;
+      text-align: center;
+      color: $white;
+      font-family: "Space Mono";
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: bold;
+    }
+    &__box {
+      @include df-row-center-center;
+      gap: 13px;
+    }
+    &__link {
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        opacity: 0.7;
+      }
+    }
+    &__appstore {
+      vertical-align: middle;
+      width: 113.57px;
+      height: 40px;
+    }
+    &__googleplay {
+      vertical-align: middle;
+      width: 130px;
+      height: 40px;
+    }
+  }
+}
