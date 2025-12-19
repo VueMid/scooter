@@ -248,6 +248,11 @@
     &__left-box {
     }
     &__logo-link {
+      transition: 200ms ease all;
+      &:active {
+        transition: 200ms ease all;
+        opacity: 0.7;
+      }
     }
     &__logo-image {
       width: 75.5px;
