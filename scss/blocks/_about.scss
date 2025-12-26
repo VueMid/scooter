@@ -1,0 +1,98 @@
+.about {
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../images/about__background-mb.jpg");
+  &::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 203px;
+    height: 63px;
+    bottom: 62px;
+    right: 0;
+    background-image: url("../../icons/triple__circles-tb.svg");
+  }
+  &__container {
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    @include df-row-start-center;
+  }
+  &__title {
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: $white;
+  }
+}
+@media (max-width: 1024px) {
+  .about {
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("../../images/about__background-mb.jpg");
+    &::after {
+      position: absolute;
+      content: "";
+      display: inline-block;
+      width: 203px;
+      height: 63px;
+      bottom: 68px;
+      right: 0;
+      background-image: url("../../icons/triple__circles-tb.svg");
+    }
+    &__container {
+      width: 100%;
+      padding: 164px 40px 72px 40px;
+      @include df-row-start-center;
+    }
+    &__title {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -2.5px;
+      color: $white;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("../../images/about__background-mb.jpg");
+    &::after {
+      position: absolute;
+      content: "";
+      display: none;
+      width: 203px;
+      height: 63px;
+      bottom: 68px;
+      right: 0;
+      background-image: url("../../icons/triple__circles-tb.svg");
+    }
+    &__container {
+      width: 100%;
+      padding: 120px 24px 60px 24px;
+      @include df-row-center-center;
+    }
+    &__title {
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 40px;
+      color: $white;
+      line-height: -1.79px;
+    }
+  }
+}

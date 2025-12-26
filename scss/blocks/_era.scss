@@ -1,15 +1,15 @@
-.zero {
-  margin-top: 160px;
+.era {
+  margin-top: 120px;
   position: relative;
   &::after {
     position: absolute;
     content: "";
     display: inline-block;
-    width: 355px;
+    width: 735px;
     height: 151px;
-    top: 15%;
+    top: 60%;
     right: 0;
-    background-image: url("../../icons/zero__vector-tb.svg");
+    background-image: url("../../icons/era__vector-tb.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -62,8 +62,8 @@
   }
 }
 @media (max-width: 1150px) {
-  .zero {
-    margin-top: 145px;
+  .era {
+    margin-top: 144px;
     position: relative;
     &::after {
       position: absolute;
@@ -73,7 +73,7 @@
       height: 151px;
       top: 35%;
       right: 0;
-      background-image: url("../../icons/zero__vector-tb.svg");
+      background-image: url("../../icons/era__vector-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -85,10 +85,11 @@
       height: 445px;
       top: 0%;
       right: 0;
-      background-image: url("../../icons/zero__mask-tb.svg");
+      background-image: url("../../icons/easy__mask-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
+
     &__container {
       padding: 0 40px;
       @include df-column-reverse-center-center;
@@ -128,18 +129,18 @@
   }
 }
 @media (max-width: 1024px) {
-  .zero {
-    margin-top: 120px;
+  .era {
+    margin-top: 144px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: inline-block;
-      width: 355px;
+      width: 735px;
       height: 151px;
-      top: 0;
+      top: 35%;
       right: 0;
-      background-image: url("../../icons/zero__vector-tb.svg");
+      background-image: url("../../icons/era__vector-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -194,18 +195,18 @@
   }
 }
 @media (max-width: 767px) {
-  .zero {
-    margin-top: 120px;
+  .era {
+    margin-top: 144px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: inline-block;
-      width: 219px;
+      width: 349px;
       height: 151px;
-      top: 0;
+      top: 23%;
       right: 0;
-      background-image: url("../../icons/zero__vector-mb.svg");
+      background-image: url("../../icons/era__vector-mb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -221,7 +222,6 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-
     &__container {
       padding: 0 24px;
       @include df-column-reverse-center-center;

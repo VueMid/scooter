@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="151" fill="none"><path stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15" d="M-391.378 7.5h558.115v99.369H343"/><path stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15" d="m304.213 145.139 38.426-38.426-38.426-38.426"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="151" fill="none">
+    <path stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"
+        d="M-391.378 7.5h558.115v99.369H343" />
+    <path stroke="#FCB72B" stroke-linejoin="bevel" stroke-width="15"
+        d="m304.213 145.139 38.426-38.426-38.426-38.426" />
+</svg>

@@ -1,5 +1,5 @@
-.zero {
-  margin-top: 160px;
+.urban {
+  margin-top: 120px;
   position: relative;
   &::after {
     position: absolute;
@@ -7,9 +7,9 @@
     display: inline-block;
     width: 355px;
     height: 151px;
-    top: 15%;
-    right: 0;
-    background-image: url("../../icons/zero__vector-tb.svg");
+    top: 0;
+    left: 0;
+    background-image: url("../../icons/urban__vector-tb.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -27,7 +27,7 @@
     background-size: cover;
   }
   &__container {
-    @include df-row-between-center;
+    @include df-row-reverse-between-center;
   }
   &__left-box {
     @include df-column-center-start;
@@ -62,8 +62,8 @@
   }
 }
 @media (max-width: 1150px) {
-  .zero {
-    margin-top: 145px;
+  .urban {
+    margin-top: 144px;
     position: relative;
     &::after {
       position: absolute;
@@ -73,7 +73,7 @@
       height: 151px;
       top: 35%;
       right: 0;
-      background-image: url("../../icons/zero__vector-tb.svg");
+      background-image: url("../../icons/urban__vector-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -85,7 +85,7 @@
       height: 445px;
       top: 0%;
       right: 0;
-      background-image: url("../../icons/zero__mask-tb.svg");
+      background-image: url("../../icons/easy__mask-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -128,7 +128,7 @@
   }
 }
 @media (max-width: 1024px) {
-  .zero {
+  .urban {
     margin-top: 120px;
     position: relative;
     &::after {
@@ -138,8 +138,8 @@
       width: 355px;
       height: 151px;
       top: 0;
-      right: 0;
-      background-image: url("../../icons/zero__vector-tb.svg");
+      left: 0;
+      background-image: url("../../icons/urban__vector-tb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -194,18 +194,18 @@
   }
 }
 @media (max-width: 767px) {
-  .zero {
+  .urban {
     margin-top: 120px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: inline-block;
-      width: 219px;
+      width: 348px;
       height: 151px;
       top: 0;
-      right: 0;
-      background-image: url("../../icons/zero__vector-mb.svg");
+      left: 0;
+      background-image: url("../../icons/urban__vector-mb.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -221,7 +221,6 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-
     &__container {
       padding: 0 24px;
       @include df-column-reverse-center-center;
