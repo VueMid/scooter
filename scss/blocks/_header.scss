@@ -1,0 +1,162 @@
+.header {
+  background-color: $white;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  &__container {
+    @include df-row-between-center;
+  }
+  &__left-box {
+    @include df-row-center-center;
+    gap: 59.18px;
+  }
+  &__logo-link {
+  }
+  &__logo-image {
+  }
+  &__nav {
+    display: block;
+  }
+  &__list {
+    @include df-row-center-center;
+    gap: 32px;
+  }
+  &__lists {
+  }
+  &__links {
+  }
+  &__links-texts {
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+  }
+  &__button {
+    @include template__button;
+    display: block;
+  }
+  &__open-burger {
+    background: none;
+    outline: none;
+    display: none;
+    border: none;
+  }
+  &__open-burger-icon {
+    display: none;
+  }
+  &__open-burger-hidden {
+    display: none;
+    opacity: 0;
+    background: none;
+    outline: none;
+    border: none;
+  }
+  &__open-burger-icon-hidden {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    background-color: $white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    &__container {
+      padding: 22px 38px;
+      @include df-row-between-center;
+    }
+    &__left-box {
+      @include df-row-center-center;
+      gap: 59.18px;
+    }
+    &__logo-link {
+    }
+    &__logo-image {
+    }
+    &__nav {
+      display: block;
+    }
+    &__list {
+      @include df-row-center-center;
+      gap: 32px;
+    }
+    &__lists {
+    }
+    &__links {
+    }
+    &__links-texts {
+    }
+    &__button {
+      @include template__button;
+      display: block;
+    }
+    &__open-burger {
+      background: none;
+      outline: none;
+      display: none;
+      border: none;
+    }
+    &__open-burger-icon {
+      display: none;
+    }
+    &__open-burger-hidden {
+      display: none;
+      opacity: 0;
+      background: none;
+      outline: none;
+      border: none;
+    }
+    &__open-burger-icon-hidden {
+      display: block;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    background-color: $white;
+    &__container {
+      padding: 24px 24px;
+      @include df-row-reverse-between-center;
+    }
+    &__left-box {
+    }
+    &__logo-link {
+    }
+    &__logo-image {
+    }
+    &__nav {
+      display: none;
+    }
+    &__list {
+      display: none;
+    }
+    &__lists {
+    }
+    &__links {
+    }
+    &__links-texts {
+    }
+    &__button {
+      display: none;
+    }
+    &__open-burger {
+      background: none;
+      outline: none;
+      display: block;
+      border: none;
+    }
+    &__open-burger-icon {
+      display: block;
+    }
+    &__open-burger-hidden {
+      display: block;
+      opacity: 0;
+      background: none;
+      outline: none;
+      border: none;
+    }
+    &__open-burger-icon-hidden {
+      display: block;
+    }
+  }
+}

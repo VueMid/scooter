@@ -5,6 +5,12 @@
   justify-content: space-between;
   align-items: center;
 }
+@mixin df-row-reverse-between-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 @mixin df-row-center-center {
   display: flex;
   flex-direction: row;

@@ -1,20 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
+    <title>Scoot</title>
   </head>
   <body>
-    <h1 class="visually-hidden">Simple-starter</h1>
+    <h1 class="visually-hidden">Home-page</h1>
     <header class="header">
-      <div class="container header__container"></div>
+      <div class="container header__container">
+        <button class="header__open-burger-hidden">
+          <img
+            class="header__open-burger-icon-hidden"
+            width="20"
+            height="16"
+            src="./icons/open__burger.svg"
+            alt="open__burger-icon"
+          />
+        </button>
+        <div class="header__left-box">
+          <a class="header__logo-link" href="#">
+            <img
+              class="header__logo-image"
+              src="./icons/dark__logo.svg"
+              alt="dark__logo"
+            />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__lists">
+                <a class="header__links" href="#">
+                  <p class="header__links-texts">About</p>
+                </a>
+              </li>
+              <li class="header__lists">
+                <a class="header__links" href="#">
+                  <p class="header__links-texts">Location</p>
+                </a>
+              </li>
+              <li class="header__lists">
+                <a class="header__links" href="#">
+                  <p class="header__links-texts">Careers</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <button class="header__button">Get Scootin</button>
+        <button class="header__open-burger">
+          <img
+            class="header__open-burger-icon"
+            width="20"
+            height="16"
+            src="./icons/open__burger.svg"
+            alt="open__burger-icon"
+          />
+        </button>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container hero__container"></div>
+        <div class="container hero__container">
+          <div class="hero__box">
+            <h2 class="hero__title">Scooter sharing made simple</h2>
+            <div class="hero__mini-box">
+              <p class="hero__text">
+                Scoot takes the hassle out of urban mobility. Our bikes are
+                placed in convenient locations in each of our cities. Use our
+                app to locate the nearest bike, unlock it with a tap, and you’re
+                away!
+              </p>
+              <button class="hero__button">Get Scootin</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">

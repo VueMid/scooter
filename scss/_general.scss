@@ -1,9 +1,10 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --yellow: #fcb72b;
 }
 ::selection {
-  background-color: var(--black);
+  background-color: var(--yellow);
   color: var(--white);
 }
 *,
@@ -52,7 +53,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 320px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lexend Deca", "Space Mono";
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
