@@ -1,15 +1,15 @@
-.city {
-  padding-top: 160px;
+.care {
+  padding-top: 120px;
   position: relative;
   &::after {
     position: absolute;
     content: "";
     display: block;
-    width: 355px;
+    width: 741px;
     height: 151px;
-    top: 160px;
-    left: -90px;
-    background-image: url("../../icons/city__tb-vector.svg");
+    top: 420px;
+    right: 0;
+    background-image: url("../../icons/care__vector.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -20,15 +20,14 @@
     display: block;
     width: 95px;
     height: 445px;
-    top: 160px;
-    left: 0;
+    top: 120px;
+    right: 0;
     background-image: url("../../icons/easy__mask.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    transform: rotate(180deg);
   }
   &__container {
-    @include df-row-reverse-between-center;
+    @include df-row-between-center;
   }
   &__left-box {
     @include df-column-center-start;
@@ -65,18 +64,18 @@
   }
 }
 @media (max-width: 1100px) {
-  .city {
-    padding-top: 160px;
+  .care {
+    padding-top: 120px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: block;
-      width: 355px;
+      width: 741px;
       height: 151px;
-      top: 160px;
-      left: -90px;
-      background-image: url("../../icons/city__tb-vector.svg");
+      top: 420px;
+      right: 0;
+      background-image: url("../../icons/care__vector.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -87,15 +86,14 @@
       display: block;
       width: 95px;
       height: 445px;
-      top: 160px;
-      left: 0;
+      top: 120px;
+      right: 0;
       background-image: url("../../icons/easy__mask.svg");
       background-repeat: no-repeat;
       background-size: cover;
-      transform: rotate(180deg);
     }
     &__container {
-      @include df-row-reverse-between-center;
+      @include df-row-between-center;
     }
     &__left-box {
       @include df-column-center-start;
@@ -133,18 +131,18 @@
   }
 }
 @media (max-width: 1024px) {
-  .city {
-    padding-top: 128px;
+  .care {
+    padding-top: 144px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: block;
-      width: 355px;
+      width: 735px;
       height: 151px;
-      top: 130px;
-      left: 0;
-      background-image: url("../../icons/city__tb-vector.svg");
+      top: 443px;
+      right: 0;
+      background-image: url("../../icons/care__tb-vector.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -154,7 +152,7 @@
       display: block;
       width: 95px;
       height: 445px;
-      top: 128px;
+      top: 144px;
       right: 0;
       background-image: url("../../icons/easy__mask.svg");
       background-repeat: no-repeat;
@@ -202,18 +200,18 @@
   }
 }
 @media (max-width: 767px) {
-  .city {
-    padding-top: 120px;
+  .care {
+    padding-top: 72px;
     position: relative;
     &::after {
       position: absolute;
       content: "";
       display: block;
-      width: 267px;
+      width: 349px;
       height: 151px;
-      top: 100px;
-      left: 0;
-      background-image: url("../../icons/city__mb-vector.svg");
+      top: 235px;
+      right: 0;
+      background-image: url("../../icons/care__mb-vector.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -225,7 +223,7 @@
       height: 445px;
       top: 145px;
       right: 0;
-      background-image: url("../../icons/city__mask.svg");
+      background-image: url("../../icons/care__mask.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
