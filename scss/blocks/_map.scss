@@ -1,0 +1,140 @@
+.map {
+  margin-top: 120px;
+  &__container {
+    @include df-column-center-center;
+    gap: 0px;
+  }
+  &__image {
+    width: 100%;
+    display: block;
+  }
+  &__tb-image {
+    width: 100%;
+    display: none;
+  }
+  &__mb-image {
+    width: 100%;
+    display: none;
+  }
+  &__box {
+    width: 100%;
+    @include df-column-center-center;
+    gap: 16px;
+  }
+  &__buttons {
+    display: none !important;
+    width: 100%;
+    padding: 14px 45px;
+    background-color: $light__yellow;
+    color: $dark__navy;
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    border: 2px solid $light__yellow;
+    letter-spacing: -1.07px;
+    cursor: pointer;
+    @include df-row-center-center;
+    transition: 100ms ease all;
+    &:active {
+      transition: 100ms ease all;
+      color: $light__yellow;
+      background-color: inherit;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .map {
+    margin-top: 144px;
+    &__container {
+      padding-left: 38px;
+      padding-right: 38px;
+      @include df-column-center-center;
+      gap: 0px;
+    }
+    &__image {
+      width: 100%;
+      display: none;
+    }
+    &__tb-image {
+      width: 100%;
+      display: block;
+    }
+    &__mb-image {
+      width: 100%;
+      display: none;
+    }
+    &__box {
+      width: 100%;
+      gap: 16px;
+    }
+    &__buttons {
+      display: none !important;
+      width: 100%;
+      padding: 14px 45px;
+      background-color: $light__yellow;
+      color: $dark__navy;
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      border: 2px solid $light__yellow;
+      letter-spacing: -1.07px;
+      cursor: pointer;
+      @include df-row-center-center;
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        color: $light__yellow;
+        background-color: inherit;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .map {
+    margin-top: 72px;
+    &__container {
+      padding-left: 24px;
+      padding-right: 24px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__image {
+      display: none;
+    }
+    &__tb-image {
+      display: none;
+    }
+    &__mb-image {
+      width: 100%;
+      display: block;
+    }
+    &__box {
+      width: 100%;
+      @include df-column-center-center;
+      gap: 16px;
+    }
+    &__buttons {
+      display: block !important;
+      width: 100%;
+      padding: 14px 45px;
+      background-color: $light__yellow;
+      color: $dark__navy;
+      font-family: "Space Mono";
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      border: 2px solid $light__yellow;
+      letter-spacing: -1.07px;
+      cursor: pointer;
+      @include df-row-center-center;
+      transition: 100ms ease all;
+      &:active {
+        transition: 100ms ease all;
+        color: $light__yellow;
+        background-color: inherit;
+      }
+    }
+  }
+}
