@@ -5,6 +5,7 @@
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 73px;
   z-index: 2;
   &::after {
     z-index: -1;
@@ -80,6 +81,7 @@
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 73px;
     z-index: 2;
     &::after {
       z-index: -1;
@@ -156,6 +158,7 @@
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 73px;
     z-index: 2;
     &::after {
       z-index: -1;
@@ -232,6 +235,7 @@
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 73px;
     z-index: 2;
     &::after {
       z-index: -1;
@@ -308,6 +312,7 @@
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 73px;
     &::after {
       z-index: -1;
       position: absolute;
@@ -378,6 +383,7 @@
 }
 @media (max-width: 767px) {
   .hero {
+    margin-top: 73px;
     position: relative;
     width: 100%;
     background-image: url("../../images/hero__mb-background-image.jpg");
